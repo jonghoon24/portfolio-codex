@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="5년 차 프론트엔드 개발자 김도현의 포트폴리오">
+  <title>김도현 — Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="처음으로">KDH<span class="logo-dot">.</span></a>
+    <nav aria-label="주요 메뉴">
+      <a href="#experience">경력</a><a href="#skills">기술</a>
+      <a class="nav-contact" href="#contact">연락하기 <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-label"><span></span> FRONTEND DEVELOPER · 5 YEARS</div>
+      <h1 id="hero-title">데이터가 많은 화면을<br><em>빠르고 읽기 쉽게</em><br>만드는 일을 좋아합니다.</h1>
+      <div class="hero-bottom">
+        <div class="intro"><p class="intro-name"><strong>김도현</strong> · 5년 차 프론트엔드 개발자</p><p>성능 개선과 디자인 시스템 구축 경험이 있습니다.</p></div>
+        <a class="scroll-link" href="#experience">경력 보기 <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="results" aria-label="주요 성과">
+      <article><span>초기 로딩</span><strong>4.2초 <i>→</i> 1.8초</strong><small>코드 분할 · 차트 렌더링 최적화</small></article>
+      <article><span>공통 컴포넌트</span><strong>40<sup>+</sup></strong><small>사내 디자인 시스템 구축</small></article>
+      <article><span>개발 기간</span><strong>약 30% <i>↓</i></strong><small>신규 화면 개발 기간 단축</small></article>
+      <article><span>월간 PDF</span><strong>10,000<sup>+</sup></strong><small>리포트 PDF 생성 건수</small></article>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <header class="section-heading"><span class="eyebrow">01 / EXPERIENCE</span><h2 id="experience-title">경력과 주요 성과</h2></header>
+      <div class="experience-list">
+        <article class="experience-item featured">
+          <div class="experience-meta"><span class="number">01</span><span class="current"><i></i> 재직 중</span></div>
+          <div class="experience-company"><h3>그로우박스</h3><p>B2B 마케팅 성과 분석 SaaS</p></div>
+          <div class="experience-detail">
+            <div class="role"><strong>프론트엔드 개발자</strong><span>2024.07 — 현재</span></div>
+            <ul><li>캠페인 성과 대시보드 개편: 코드 분할과 차트 렌더링 최적화로 초기 로딩 4.2초 → 1.8초</li><li>사내 디자인 시스템 구축: 공통 컴포넌트 40여 개 정리, 신규 화면 개발 기간 약 30% 단축</li><li>리포트 PDF 내보내기 기능 개발: 월 1만 건 이상 생성</li></ul>
+            <div class="tech-tags"><span>TypeScript</span><span>React</span><span>Next.js</span><span>React Query</span><span>Tailwind CSS</span><span>Playwright</span></div>
+          </div>
+        </article>
+        <article class="experience-item">
+          <div class="experience-meta"><span class="number">02</span></div>
+          <div class="experience-company"><h3>티키타카랩스</h3><p>취미 모임 커뮤니티 서비스<br>주간 활성 사용자 약 3만 명</p></div>
+          <div class="experience-detail">
+            <div class="role"><strong>프론트엔드 개발자</strong><span>2022.03 — 2024.06</span></div>
+            <ul><li>모임 탐색, 신청 등 서비스 핵심 화면 프론트엔드 개발</li><li>클라이언트 리사이징 도입으로 이미지 업로드 실패율 7% → 1% 미만</li><li>검색 필터 UI 개편 및 A/B 테스트로 모임 신청 전환율 12% 상승</li></ul>
+            <div class="tech-tags"><span>JavaScript</span><span>React</span><span>Redux</span><span>styled-components</span></div>
+          </div>
+        </article>
+        <article class="experience-item">
+          <div class="experience-meta"><span class="number">03</span></div>
+          <div class="experience-company"><h3>에이블스튜디오</h3><p>웹 에이전시</p></div>
+          <div class="experience-detail">
+            <div class="role"><strong>인턴</strong><span>2021.09 — 2022.02</span></div>
+            <ul><li>브랜드 홍보 사이트 5건의 마크업과 인터랙션 구현</li></ul>
+            <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills" aria-labelledby="skills-title">
+      <header class="section-heading light-heading"><span class="eyebrow">02 / SKILLS</span><h2 id="skills-title">사용하는 기술과 도구</h2></header>
+      <div class="skill-grid">
+        <article><span class="skill-no">01</span><h3>언어</h3><p>TypeScript<br>JavaScript<br>HTML<br>CSS</p></article>
+        <article><span class="skill-no">02</span><h3>프레임워크와 라이브러리</h3><p>React<br>Next.js<br>React Query<br>Redux<br>Tailwind CSS</p></article>
+        <article><span class="skill-no">03</span><h3>테스트와 협업 도구</h3><p>Jest<br>Playwright<br>Storybook<br>Git · GitHub<br>Figma</p></article>
+        <article><span class="skill-no">04</span><h3>배포</h3><p>Vercel<br>AWS S3<br>CloudFront</p></article>
+      </div>
+    </section>
+
+    <section class="profile-section" aria-label="학력과 기타 활동">
+      <div class="profile-block"><span class="eyebrow">03 / EDUCATION</span><div class="profile-row"><strong>가온대학교</strong><p>컴퓨터공학과 학사<br><span>2016.03 — 2022.02</span></p></div><div class="profile-row"><strong>정보처리기사</strong><p><span>2021</span></p></div></div>
+      <div class="profile-block"><span class="eyebrow">04 / ACTIVITIES</span><div class="profile-row"><strong>프론트엔드 스터디</strong><p>사내 스터디 운영<br><span>2025 — 현재</span></p></div><div class="profile-row"><strong>기술 블로그</strong><p>성능 개선 회고 등<br><span>20여 편 작성</span></p></div></div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <span class="eyebrow">05 / CONTACT</span><h2 id="contact-title">김도현<br><span>Frontend Developer</span></h2>
+      <div class="contact-links">
+        <a href="mailto:kimdohyun.fe@gmail.com"><span>EMAIL</span><strong>kimdohyun.fe@gmail.com</strong><i>↗</i></a>
+        <a href="https://github.com/kimdohyun-fe"><span>GITHUB</span><strong>github.com/kimdohyun-fe</strong><i>↗</i></a>
+        <a href="https://velog.io/@kimdohyun-fe"><span>VELOG</span><strong>velog.io/@kimdohyun-fe</strong><i>↗</i></a>
+      </div>
+    </section>
+  </main>
+  <footer><span>김도현 · 프론트엔드 개발자</span><a href="#top">위로 가기 ↑</a></footer>
+</body>
+</html>
