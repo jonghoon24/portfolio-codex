@@ -1,0 +1,7 @@
+default_permissions = "safe"
+
+[permissions.safe]
+extends = ":workspace"
+
+[permissions.safe.filesystem.":workspace_roots"]
+"**/.env*" = "deny"
